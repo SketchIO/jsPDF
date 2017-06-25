@@ -62,7 +62,7 @@ function bundle(paths) {
         'deflate.js': 'Deflater',
         'zlib.js': 'FlateStream',
         'css_colors.js': 'CssColors',
-        'html2pdf.js': 'html2pdf'
+        //'html2pdf.js': 'html2pdf'
       }),
       babel({
         presets: ['es2015-rollup'],
